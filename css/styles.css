@@ -12,7 +12,7 @@ font-family: "Roboto","Raleway",sans-serif;
 .header-logo-first {
 color: #4D5AE5;
 }
-
+/* -------header-----------*/
 .header-logo {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -31,6 +31,27 @@ color: #4D5AE5;
         color: #2e2f42;
 }
 
+.header-menu-link:hover {
+        color: #4d5ae5;
+}
+
+.header-menu-link-contacts{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.header-menu-link-contacts:hover{
+        color: #4d5ae5;
+}
+
+.header-menu-link-contacts:active{
+        color: #4d5ae5;
+}
+
+
 .header-address-link {
         font-weight: 400;
         font-size: 16px;
@@ -38,6 +59,17 @@ color: #4D5AE5;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.header-address-link:hover {
+        color: #4d5ae5;
+}
+
+.header-address-link:focus {
+        color: #4d5ae5;
+}
+
+/* -------------------------------*/
+/* ------.main-section -----------*/
 
 .main-section{
         width: 1440px;
@@ -48,20 +80,27 @@ color: #4D5AE5;
 .main-section-title{
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
 }
 
 .main-section-button{
+        font-family: "Roboto", sans-serif;
         border-radius: 4px;
         padding: 16px 32px;
         width: 169px;
         height: 56px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
+        cursor: pointer;
 }
+
+.main-section-button:hover{
+        #404bbf;
+}
+
 .main-section-button-text{
         font-weight: 500;
         font-size: 16px;
@@ -69,6 +108,13 @@ color: #4D5AE5;
         letter-spacing: 0.04em;
         text-align: center;
         color: #fff;
+}
+/* ------------------------------ */
+/* ----------------fuatures---------- */
+
+.fuatures{
+        width: 1128px;
+        height: 104px;
 }
 
 .fuatures-list-title{
@@ -87,6 +133,8 @@ color: #4D5AE5;
         color: #434455;
 }
 
+/* -------------------------------- */
+/* ------------------team-------------- */
 
 .team{
 width: 1440px;
@@ -98,7 +146,7 @@ background: #f4f4fd;
 font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -113,7 +161,7 @@ font-family: "Roboto", sans-serif;
         background: #fff;
 }
 
-.tean-menu-img{
+.team-menu-img{
         width: 264px;
         height: 260px;
 }
@@ -136,6 +184,52 @@ font-family: "Roboto", sans-serif;
         color: #434455;
 }
 
+/* ---------------------------------- */
+/* ----------------portfolio------------ */
+.portfolio{
+        width: 1128px;
+        height: 1000px;
+}
+
+.portfolio-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.portfolio-menu-item{
+        width: 360px;
+        height: 420px;
+        background: #fff;
+}
+
+.portfolio-menu-img{
+        width: 360px;
+        height: 300px;
+}
+
+.portfolio-list-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center
+        color: #2e2f42;
+}
+
+.portfolio-list-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/* ---------------------------------- */
+/* -----------footer--------------------- */
 .footer{
         width: 1440px;
         height: 312px;
