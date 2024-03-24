@@ -9,7 +9,7 @@ text-decoration: none;
 body {
 font-family: "Roboto",sans-serif;
 color: #434455;
-background-color: FFFFFF;
+background-color: #FFFFFF;
 }
 
 .header-logo-first {
@@ -27,7 +27,7 @@ color: #2e2f42;
 }
 
 .header-menu-link{
-        ont-weight: 500;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -48,7 +48,7 @@ color: #2e2f42;
 
 
 .header-address-link {
-        font-style: normal
+        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -68,8 +68,6 @@ color: #2e2f42;
 /* ------.main-section -----------*/
 
 .main-section{
-        width: 1440px;
-        height: 600px;
         background: #2e2f42;
 }
 
@@ -104,10 +102,6 @@ color: #2e2f42;
 /* ------------------------------ */
 /* ----------------fuatures---------- */
 
-.fuatures{
-        width: 1128px;
-        height: 104px;
-}
 
 .fuatures-list-title{
         font-weight: 500;
@@ -129,8 +123,6 @@ color: #2e2f42;
 /* ------------------team-------------- */
 
 .team{
-width: 1440px;
-height: 732px;
 background: #f4f4fd;
 }
 
@@ -146,18 +138,9 @@ font-family: "Roboto", sans-serif;
 }
 
 .team-menu-item{
-        border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
-        width: 264px;
-        height: 380px;
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
 }
 
-.team-menu-img{
-        width: 264px;
-        height: 260px;
-}
 
 .team-list-title{
         font-weight: 500;
@@ -179,10 +162,7 @@ font-family: "Roboto", sans-serif;
 
 /* ---------------------------------- */
 /* ----------------portfolio------------ */
-.portfolio{
-        width: 1128px;
-        height: 1000px;
-}
+
 
 .portfolio-title{
         font-weight: 700;
@@ -195,8 +175,6 @@ font-family: "Roboto", sans-serif;
 }
 
 .portfolio-menu-item{
-        width: 360px;
-        height: 420px;
         background: #fff;
 }
 
@@ -221,15 +199,11 @@ font-family: "Roboto", sans-serif;
 /* ---------------------------------- */
 /* -----------footer--------------------- */
 .footer{
-        width: 1440px;
-        height: 312px;
         background: #2e2f42;
 }
 
 .footer-link{
-        font-family: "Raleway", sans-serif
-        width: 115px;
-        height: 24px;
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
